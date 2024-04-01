@@ -68,3 +68,19 @@ let password = 123;
     console.log("Falha de autenticação. Por favor, verifique o nome de usuário e senha.");
 }
 
+// sexto exercicio
+var nota1 = 10 //(prompt("Digite a nota 1:"));
+var nota2 =  6//(prompt("Digite a nota 2:"));
+var nota3 =  7//(prompt("Digite a nota 3:"));
+var nota4 =  8//(prompt("Digite a nota 4:"));
+var nota5 =  5//(prompt("Digite a nota 5:"));
+var nota6 =  8//(prompt("Digite a nota 6:"));
+var nota7 =  4//(prompt("Digite a nota 7:"));
+let media = (nota1 + nota2 + nota3 + nota4 + nota5 + nota6 + nota7) / 7;
+if (media >= 6) {
+    console.log("Parabéns! Você foi aprovado com média :", media);
+} else {
+    console.log("Você foi reprovado com média :", media);
+}
+
+
