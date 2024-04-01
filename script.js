@@ -46,7 +46,7 @@ else{
 console.log("O seu IMC é: ", imc) */
 
 //quarto exercicio
-let idade =10 // define uma idade para a pessoa, não consegui puxar a idade, estava dando erro no document
+/*let idade = parseFloat(prompt("digite sua idade: "));; // define uma idade para a pessoa
 if (idade <= 12) { // se a idade da pessoa for menor ou igual a 12 é considerada criança
     console.log("Criança") ;
 } else if (idade <= 18) { // se a idade da pessoa for menor ou igual a 18 é considerada Adolescente
@@ -55,5 +55,16 @@ if (idade <= 12) { // se a idade da pessoa for menor ou igual a 12 é considerad
     console.log("Adulto");
 } else {
     console.log("Idoso");
+}
+*/
+
+//quinto exercicio
+let username = admin; // Obter os valores do nome de usuário e senha
+let password = 123;
+ // Verificar se o nome de usuário e a senha correspondem ao usuário cadastrado
+ if (username === "admin" && password === "1234") {
+    console.log("Login realizado com sucesso!");
+} else {
+    console.log("Falha de autenticação. Por favor, verifique o nome de usuário e senha.");
 }
 
