@@ -90,7 +90,7 @@ let idade = 20;
 let curso = "Engenharia";
 let ano = 3;
 //não faço ideia
-
+/*
 //oitavo exercicio
 //texto fornecido
 let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
@@ -110,4 +110,15 @@ console.log("Busca da palavra 'ciência':", palavraCiencia ? "Encontrada" : "Nã
 // Buscando a palavra "métodos"
 var palavraMetodos = texto.match(/métodos/i);
 console.log("Busca da palavra 'métodos':", palavraMetodos ? "Encontrada" : "Não encontrada");
-//tive que pesquisar como fazer
+//tive que pesquisar como fazer*/
+
+//nono exercicio
+// Declaração da variável como String
+let string = "123.45";
+
+// Convertendo a variável para float
+let float = parseFloat(string);
+
+// Apresentando o tipo da variável
+console.log("O tipo da variável é:", typeof float);
+document. write
