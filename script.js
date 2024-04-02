@@ -59,7 +59,7 @@ if (idade <= 12) { // se a idade da pessoa for menor ou igual a 12 é considerad
 */
 
 //quinto exercicio
-let username = admin; // Obter os valores do nome de usuário e senha
+/*let username ="admin"; // Obter os valores do nome de usuário e senha
 let password = 123;
  // Verificar se o nome de usuário e a senha correspondem ao usuário cadastrado
  if (username === "admin" && password === "1234") {
@@ -67,9 +67,9 @@ let password = 123;
 } else {
     console.log("Falha de autenticação. Por favor, verifique o nome de usuário e senha.");
 }
-
+*/
 // sexto exercicio
-var nota1 = 10 //(prompt("Digite a nota 1:"));
+/*var nota1 = 10 //(prompt("Digite a nota 1:"));
 var nota2 =  6//(prompt("Digite a nota 2:"));
 var nota3 =  7//(prompt("Digite a nota 3:"));
 var nota4 =  8//(prompt("Digite a nota 4:"));
@@ -82,5 +82,14 @@ if (media >= 6) {
 } else {
     console.log("Você foi reprovado com média :", media);
 }
+
+*/
+//setimo exercicio
+let nome = "João";
+let idade = 20;
+let curso = "Engenharia";
+let ano = 3;
+
+
 
 
