@@ -89,7 +89,25 @@ let nome = "João";
 let idade = 20;
 let curso = "Engenharia";
 let ano = 3;
+//não faço ideia
 
+//oitavo exercicio
+//texto fornecido
+let texto = "Tecnologia é um produto da ciência e da engenharia que envolve um conjunto de instrumentos, métodos e técnicas que visam a resolução de problemas.";
 
+// procurando a primeira posição "em"
+primeiraPosicaoEm = texto.indexOf("em");
+console.log(" Primeira posição de em':", primeiraPosicaoEm);
 
+// Buscando a última posição de "ia"
+var ultimaPosicaoIa = texto.lastIndexOf("ia");
+console.log("Última posição de 'ia': ", ultimaPosicaoIa);
 
+// Buscando a palavra "ciência"
+var palavraCiencia = texto.match(/ciência/i);
+console.log("Busca da palavra 'ciência':", palavraCiencia ? "Encontrada" : "Não encontrada");
+
+// Buscando a palavra "métodos"
+var palavraMetodos = texto.match(/métodos/i);
+console.log("Busca da palavra 'métodos':", palavraMetodos ? "Encontrada" : "Não encontrada");
+//tive que pesquisar como fazer
